@@ -1,0 +1,242 @@
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+#body{
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+$bg-clr:rgba(34, 34, 34, 0.778);
+#navbar{
+    margin: 0;
+    padding: 0;
+    background-color: $bg-clr;
+    border-bottom: 1px solid gray;
+    #nav1{
+        display: flex;
+        &>div{
+             padding: 40px;
+             color: gray;
+             font-weight: 500;
+             cursor: pointer;
+        }
+        &>div:nth-child(1){
+            color: yellow;
+            font-size: 1.5em;
+            padding-top: 30px;
+            font-weight: 500;
+        }
+        &>div:hover{
+            color: yellow;
+        }
+    }
+    #nav2{
+        display: flex;
+        position: absolute;
+        right: 0vw;
+        width: 15%;
+        &>div{
+             padding-top: 40px;
+             padding-left: 30px;
+             color: gray;
+             cursor: pointer;
+
+             img{
+                width: 20%;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                position: absolute;
+                top:3.5vh;
+             }
+        }
+    }
+    display: flex;
+    margin-bottom:0 ;
+}
+#sidebar{
+    background-color: $bg-clr;
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+    h1{
+        padding: 10px;
+        color: white;
+    }
+    div{
+        display: flex;
+        input{
+            margin-left: 10px;
+            width: 25%;
+            height: 5vh;
+            padding-left: 35px;
+            background-color: rgb(175, 197, 221);
+            &::placeholder{
+                color: rgb(98, 98, 98);
+                font-weight: 700;
+                font-size: 1.2em;
+            }
+            &:focus{
+                outline: none;
+            }
+            border: none;
+            border-radius: 5px;
+        }
+        i{
+            position: relative;
+            left: -24%;
+            top: 1.2vh;
+            color: rgb(98, 98, 98);
+        }
+        div{
+           position: relative;
+           right: -62%;
+            span{
+                margin-left: 1vw;
+                width: 50px;
+                background-color: gray;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            #orient1{
+                div:nth-child(1){
+                    background-color: black;
+                    left: 0;
+                    width: 20px;
+                    height: 10px;
+                    margin: 5px;
+                    border-radius: 2px;
+                }
+                div:nth-child(2){
+                    background-color: black;
+                    left: 0;
+                    width: 30px;
+                    height: 10px;
+                    margin: 5px;
+                    border-radius: 2px;
+                }
+                &:hover{
+                    background-color: rgb(176, 176, 176);
+                }
+            }
+            #orient2{
+                &>div:nth-child(1){
+                    left: 0;
+                    span{
+                    background-color: black;
+                    width: 12px;
+                    height: 12px;
+                    margin: 5px;
+                    border-radius: 2px;
+                    }
+                }
+                &>div:nth-child(2){
+                    left: 0;
+                    span{
+                    background-color: black;
+                    width: 12px;
+                    height: 12px;
+                    margin: 5px;
+                    border-radius: 2px;
+                    }
+                }
+                &:hover{
+                    background-color: rgb(176, 176, 176);
+                }
+            }
+        }
+    }
+}
+#slider{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 0.5vw;
+    div{
+        cursor: pointer;
+        background-color:$bg-clr;
+        width: 7%;
+        margin: 10px;
+        height: 35px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        &:hover{
+            background-color: yellow;
+            color: black;
+        }
+    }
+}
+.bodyCont::-webkit-scrollbar {
+    display: none;
+  }
+.bodyCont{
+    overflow-x: scroll;
+    height: 60vh;
+    border-radius: 10px;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+    &>div{
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        &>div{
+            color: white;
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: $bg-clr;
+            height: 400px;
+            border-radius: 10px;
+            &:hover{
+                background-color: rgba(58, 58, 58, 0.778);
+            }
+            img{
+                width: 100%;
+                height: 40%;
+            }
+            h4{
+                height: 8%;
+                padding: 1%;
+            }
+            &>div:nth-child(2){
+                height: 2%;
+                color: gold;
+                letter-spacing: 5px;
+                padding-left: 2%;
+                span{
+                    letter-spacing: 0;
+                    display: block;
+                    float: right;
+                }
+            }
+            &>div:nth-child(4){
+                text-align: justify;
+                padding: 5px;
+                padding-top: 0;
+                font-size: 0.8em;
+                height: 25%;
+            }
+            &>div:nth-child(5){
+                color: yellow;
+                display: block;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 5%;
+                padding-left: 10%;
+                cursor: pointer;
+            }
+        }
+    }
+}
