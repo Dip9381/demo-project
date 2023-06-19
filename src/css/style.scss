@@ -34,13 +34,13 @@ $bg-clr:rgba(34, 34, 34, 0.778);
              cursor: pointer;
         }
         &>div:nth-child(1){
-            color: yellow;
+            color: #FFBB29;
             padding-top: 4%;
             font-size: 1.5rem;
             font-weight: 500;
         }
         &>div:hover{
-            color: yellow;
+            color: #FFBB29;
         }
     }
     #nav2{
@@ -83,9 +83,9 @@ $bg-clr:rgba(34, 34, 34, 0.778);
             width: 25%;
             height: 5vh;
             padding-left: 35px;
-            background-color: rgb(175, 197, 221);
+            background-color:#282C38;
             &::placeholder{
-                color: rgb(98, 98, 98);
+                color: #757B8C;
                 font-weight: 700;
                 font-size: 1.2em;
             }
@@ -99,7 +99,7 @@ $bg-clr:rgba(34, 34, 34, 0.778);
             position: relative;
             left: -24%;
             top: 1.2vh;
-            color: rgb(98, 98, 98);
+            color: #757B8C;
         }
         div{
            position: relative;
@@ -175,7 +175,7 @@ $bg-clr:rgba(34, 34, 34, 0.778);
         text-align: center;
         line-height: 35px;
         &:hover{
-            background-color: yellow;
+            background-color: #FFBB29;
             color: black;
         }
     }
@@ -231,7 +231,7 @@ $bg-clr:rgba(34, 34, 34, 0.778);
                 height: 25%;
             }
             &>div:nth-child(5){
-                color: yellow;
+                color: #FFBB29;
                 display: block;
                 display: flex;
                 flex-direction: column;

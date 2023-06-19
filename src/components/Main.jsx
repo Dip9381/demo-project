@@ -4,7 +4,7 @@ import Slider from '../components/Slider.jsx'
 const Main = () => {
     const [slidernum,setslidernum]=useState(1);
     useEffect(()=>{
-        document.getElementById('slider').children[slidernum-1].style.backgroundColor='yellow';
+        document.getElementById('slider').children[slidernum-1].style.backgroundColor='#FFBB29';
             document.getElementById('slider').children[slidernum-1].style.color='black';
     },[slidernum])
     const click=(ele,e)=>{

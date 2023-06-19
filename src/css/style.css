@@ -40,13 +40,13 @@ body {
   cursor: pointer;
 }
 #navbar #nav1 > div:nth-child(1) {
-  color: yellow;
+  color: #FFBB29;
   padding-top: 4%;
   font-size: 1.5rem;
   font-weight: 500;
 }
 #navbar #nav1 > div:hover {
-  color: yellow;
+  color: #FFBB29;
 }
 #navbar #nav2 {
   display: flex;
@@ -86,17 +86,17 @@ body {
   width: 25%;
   height: 5vh;
   padding-left: 35px;
-  background-color: rgb(175, 197, 221);
+  background-color: #282C38;
   border: none;
   border-radius: 5px;
 }
 #sidebar div input::-moz-placeholder {
-  color: rgb(98, 98, 98);
+  color: #757B8C;
   font-weight: 700;
   font-size: 1.2em;
 }
 #sidebar div input::placeholder {
-  color: rgb(98, 98, 98);
+  color: #757B8C;
   font-weight: 700;
   font-size: 1.2em;
 }
@@ -107,7 +107,7 @@ body {
   position: relative;
   left: -24%;
   top: 1.2vh;
-  color: rgb(98, 98, 98);
+  color: #757B8C;
 }
 #sidebar div div {
   position: relative;
@@ -180,7 +180,7 @@ body {
   line-height: 35px;
 }
 #slider div:hover {
-  background-color: yellow;
+  background-color: #FFBB29;
   color: black;
 }
 
@@ -239,7 +239,7 @@ body {
   height: 25%;
 }
 .bodyCont > div > div > div:nth-child(5) {
-  color: yellow;
+  color: #FFBB29;
   display: block;
   display: flex;
   flex-direction: column;
